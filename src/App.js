@@ -1,10 +1,12 @@
 import Profile from "./components/Profile";
 import FriendList from "./components/FriendList";
 import Statistics from "./components/Statistics";
+import TransactionHistory from "./components/TransactionHistory";
 
 import user from "./db/user.json";
 import friends from "./db/friends.json";
 import data from "./db/data.json";
+import transactions from "./db/transactions.json";
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
       {/* <Statistics stats={data} />;
        */}
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />;
     </div>
   );
 }
