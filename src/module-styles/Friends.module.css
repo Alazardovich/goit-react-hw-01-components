@@ -1,0 +1,49 @@
+.FriendList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  height: auto;
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color: #fff;
+  /* box-sizing: content-box; */
+  border: 2px solid rgba(131, 137, 150, 0.9);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-radius: 3px;
+}
+.Item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+.Avatar {
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+  margin-left: 75px;
+}
+
+.Active {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(105, 180, 95);
+}
+.Inactive {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(240, 90, 90);
+}

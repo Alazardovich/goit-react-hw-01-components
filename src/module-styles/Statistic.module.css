@@ -1,0 +1,28 @@
+.Statistics {
+  padding: 0;
+  margin: 0;
+}
+.Title {
+  text-align: center;
+}
+.ListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.Item {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  padding: 10px 0;
+}
+.Item:not(:first-child) {
+  margin-left: 20px;
+}
+.Label {
+  padding-bottom: 10px;
+}
