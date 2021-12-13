@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "../module-styles/Statistic.module.css";
+import styles from "./Statistic.module.css";
 
 const color = function randomColor() {
   return (

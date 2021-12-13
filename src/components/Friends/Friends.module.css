@@ -32,18 +32,17 @@
   padding-right: 30px;
   margin-left: 75px;
 }
-
-.Active {
+.status {
   margin-left: 10px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
+}
+.Active {
+  composes: status;
   background-color: rgb(105, 180, 95);
 }
 .Inactive {
-  margin-left: 10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  composes: status;
   background-color: rgb(240, 90, 90);
 }

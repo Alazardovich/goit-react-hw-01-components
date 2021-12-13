@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "../module-styles/Profile.module.css";
+import styles from "./Profile.module.css";
 
 export default function Profile({
   userName,
